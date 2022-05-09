@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Color Picker - ScribbleX Tools
+    </title>
+
+    <link rel="shortcut icon" href="kt23.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://trevor-reznik.github.io/guides/color-tools/tinyColor.js"></script>
+</head>
+<body>
+    <span id="headin">Color Picker - Based on themes.</span>
+    <br>
+    <span id="subheadin">Use the color picker to get the perfect font-color-scheme!</span>
+    <h1>Hover&nbsp;Over&nbsp;Colors&nbsp;</h1>
+<h3>Sub&nbsp;Section&nbsp;Header&nbsp;Text&nbsp;Color:</h3>
+<h2>Navbar,&nbsp;Header&nbsp;&&nbsp;Title&nbsp;BGs:</h2>
+<h5>sliders&nbsp;switches&nbsp;buttons&nbsp;actions</h5>
+<h4>deactivated&nbsp;&&nbsp;disabled&nbsp;states:</h4>
+<h6>captions&nbsp;&&nbsp;body&nbsp;emph</h6>
+<h7>text&nbsp;color:</h7>
+<div class="material-palette">
+	<ul class="shades-container">
+		<li class="shade ng-scope" ng-repeat="shade in $materialPalette.shades">
+			<span ng-if="shade.indexOf(&#39;A&#39;) === -1" class="ng-scope"></span>
+			<span ng-if="shade.indexOf(&#39;A&#39;) === -1" class="align-bottom ng-binding ng-scope">50</span>
+			<span></span>
+		</li>
+		<li class="shade ng-scope" ng-repeat="shade in $materialPalette.shades">
+			<span ng-if="shade.indexOf(&#39;A&#39;) === -1" class="ng-scope"></span>
+
+			<span ng-if="shade.indexOf(&#39;A&#39;) === -1" class="align-bottom ng-binding ng-scope">100</span>
+			<span></span>
+		</li>
+		<li class="shade ng-scope" ng-repeat="shade in $materialPalette.shades">
+			<span ng-if="shade.indexOf(&#39;A&#39;) === -1" class="ng-scope"></span>
+
+			<span ng-if="shade.indexOf(&#39;A&#39;) === -1" class="align-bottom ng-binding ng-scope">200</span>
+			<span></span>
+		</li>
+		<li class="shade ng-scope" ng-repeat="shade in $materialPalette.shades">
+			<span ng-if="shade.indexOf(&#39;A&#39;) === -1" class="ng-scope"></span>
+
+			<span ng-if="shade.indexOf(&#39;A&#39;) === -1" class="align-bottom ng-binding ng-scope">300</span>
+			<span></span>
+		</li>
+		<li class="shade ng-scope" ng-repeat="shade in $materialPalette.shades">
+			<span ng-if="shade.indexOf(&#39;A&#39;) === -1" class="ng-scope"></span>
+
+			<span ng-if="shade.indexOf(&#39;A&#39;) === -1" class="align-bottom ng-binding ng-scope">400</span>
+			<span></span>
+		</li>
+		<li class="shade ng-scope" ng-repeat="shade in $materialPalette.shades">
+			<span ng-if="shade.indexOf(&#39;A&#39;) === -1" class="ng-scope"></span>
+
+			<span ng-if="shade.indexOf(&#39;A&#39;) === -1" class="align-bottom ng-binding ng-scope">500</span>
+			<span></span>
+		</li>
+		<li class="shade ng-scope" ng-repeat="shade in $materialPalette.shades">
+			<span ng-if="shade.indexOf(&#39;A&#39;) === -1" class="ng-scope"></span>
+
+			<span ng-if="shade.indexOf(&#39;A&#39;) === -1" class="align-bottom ng-binding ng-scope">600</span>
+			<span></span>
+		</li>
+		<li class="shade ng-scope" ng-repeat="shade in $materialPalette.shades">
+			<span ng-if="shade.indexOf(&#39;A&#39;) === -1" class="ng-scope"></span>
+
+			<span ng-if="shade.indexOf(&#39;A&#39;) === -1" class="align-bottom ng-binding ng-scope">700</span>
+			<span></span>
+		</li>
+		<li class="shade ng-scope" ng-repeat="shade in $materialPalette.shades">
+			<span ng-if="shade.indexOf(&#39;A&#39;) === -1" class="ng-scope"></span>
+
+			<span ng-if="shade.indexOf(&#39;A&#39;) === -1" class="align-bottom ng-binding ng-scope">800</span>
+			<span></span>
+		</li>
+		<li class="shade ng-scope" ng-repeat="shade in $materialPalette.shades">
+			<span ng-if="shade.indexOf(&#39;A&#39;) === -1" class="ng-scope"></span>
+
+			<span ng-if="shade.indexOf(&#39;A&#39;) === -1" class="align-bottom ng-binding ng-scope">900</span>
+			<span></span>
+		</li>
+		<li class="shade ng-scope" ng-repeat="shade in $materialPalette.shades">
+			<span ng-if="shade.indexOf(&#39;A&#39;) !== -1" class="ng-scope">A</span>
+
+			<span ng-if="shade.indexOf(&#39;A&#39;) !== -1" class="ng-binding ng-scope">100</span>
+
+			<span></span>
+		</li>
+		<li class="shade ng-scope" ng-repeat="shade in $materialPalette.shades">
+			<span ng-if="shade.indexOf(&#39;A&#39;) !== -1" class="ng-scope">A</span>
+
+			<span ng-if="shade.indexOf(&#39;A&#39;) !== -1" class="ng-binding ng-scope">200</span>
+
+			<span></span>
+		</li>
+		<li class="shade ng-scope" ng-repeat="shade in $materialPalette.shades">
+			<span ng-if="shade.indexOf(&#39;A&#39;) !== -1" class="ng-scope">A</span>
+
+			<span ng-if="shade.indexOf(&#39;A&#39;) !== -1" class="ng-binding ng-scope">400</span>
+
+			<span></span>
+		</li>
+		<li class="shade ng-scope" ng-repeat="shade in $materialPalette.shades">
+			<span ng-if="shade.indexOf(&#39;A&#39;) !== -1" class="ng-scope">A</span>
+
+			<span ng-if="shade.indexOf(&#39;A&#39;) !== -1" class="ng-binding ng-scope">700</span>
+			<span></span>
+		</li>
+	</ul>
+	<div class="labels-and-palettes">
+		<ul class="color-labels">
+			<li class="color-label ng-binding ng-scope" ng-repeat="(index, palette) in $materialPalette.palettes">
+				Red
+				<div class="color-label-divider"></div>
+			</li>
+			<li class="color-label ng-binding ng-scope" ng-repeat="(index, palette) in $materialPalette.palettes">
+				Pink
+				<div class="color-label-divider"></div>
+			</li>
+			<li class="color-label ng-binding ng-scope" ng-repeat="(index, palette) in $materialPalette.palettes">
+				Purple
+				<div class="color-label-divider"></div>
+			</li>
+			<li class="color-label ng-binding ng-scope" ng-repeat="(index, palette) in $materialPalette.palettes">
+				Deep Purple
+				<div class="color-label-divider"></div>
+			</li>
+			<li class="color-label ng-binding ng-scope" ng-repeat="(index, palette) in $materialPalette.palettes">
+				Indigo
+				<div class="color-label-divider"></div>
+			</li>
+			<li class="color-label ng-binding ng-scope" ng-repeat="(index, palette) in $materialPalette.palettes">
+				Blue
+				<div class="color-label-divider"></div>
+			</li>
+			<li class="color-label ng-binding ng-scope" ng-repeat="(index, palette) in $materialPalette.palettes">
+				Cyan
+				<div class="color-label-divider"></div>
+			</li>
+			<li class="color-label ng-binding ng-scope" ng-repeat="(index, palette) in $materialPalette.palettes">
+				Teal
+				<div class="color-label-divider"></div>
+			</li>
+			<li class="color-label ng-binding ng-scope" ng-repeat="(index, palette) in $materialPalette.palettes">
+				Green
+				<div class="color-label-divider"></div>
+			</li>
+		</ul>
+		<div class="palettes">
+			<ul class="palette-container ng-scope" ng-repeat="(index, palette) in $materialPalette.palettes">
+				<li class="color ng-scope" ng-repeat="value in palette.values" value="#FFEBEE" aria-label="Red 50" aria-pressed="false" ng-class="{ &#39;color--state-selected&#39;: value.hex === $materialPalette.activeColor.hex }" ng-click="$materialPalette.setColor($event, value);" ng-style="{ &#39;background-color&#39;: value.hex, &#39;color&#39;: value.hexText }" role="button" tabindex="0" style="background-color: rgb(255, 235, 238)"></li>
+				<li class="color ng-scope" ng-repeat="value in palette.values" value="#FFCDD2" aria-label="Red 100" aria-pressed="false" ng-class="{ &#39;color--state-selected&#39;: value.hex === $materialPalette.activeColor.hex }" ng-click="$materialPalette.setColor($event, value);" ng-style="{ &#39;background-color&#39;: value.hex, &#39;color&#39;: value.hexText }" role="button" tabindex="0" style="background-color: rgb(255, 205, 210)"></li>
+				<li class="color ng-scope" ng-repeat="value in palette.values" value="#EF9A9A" aria-label="Red 200" aria-pressed="false" ng-class="{ &#39;color--state-selected&#39;: value.hex === $materialPalette.activeColor.hex }" ng-click="$materialPalette.setColor($event, value);" ng-style="{ &#39;background-color&#39;: value.hex, &#39;color&#39;: value.hexText }" role="button" tabindex="0" style="background-color: rgb(239, 154, 154)"></li>
+				<li class="color ng-scope" ng-repeat="value in palette.values" value="#E57373" aria-label="Red 300" aria-pressed="false" ng-class="{ &#39;color--state-selected&#39;: value.hex === $materialPalette.activeColor.hex }" ng-click="$materialPalette.setColor($event, value);" ng-style="{ &#39;background-color&#39;: value.hex, &#39;color&#39;: value.hexText }" role="button" tabindex="0" style="background-color: rgb(229, 115, 115)"></li>
+				<li class="color ng-scope" ng-repeat="value in palette.values" value="#EF5350" aria-label="Red 400" aria-pressed="false" ng-class="{ &#39;color--state-selected&#39;: value.hex === $materialPalette.activeColor.hex }" ng-click="$materialPalette.setColor($event, value);" ng-style="{ &#39;background-color&#39;: value.hex, &#39;color&#39;: value.hexText }" role="button" tabindex="0" style="background-color: rgb(239, 83, 80)"></li>
+				<li class="color ng-scope" ng-repeat="value in palette.values" value="#F44336" aria-label="Red 500" aria-pressed="false" ng-class="{ &#39;color--state-selected&#39;: value.hex === $materialPalette.activeColor.hex }" ng-click="$materialPalette.setColor($event, value);" ng-style="{ &#39;background-color&#39;: value.hex, &#39;color&#39;: value.hexText }" role="button" tabindex="0" style="background-color: rgb(244, 67, 54)"></li>
+				<li class="color ng-scope" ng-repeat="value in palette.values" value="#E53935" aria-label="Red 600" aria-pressed="false" ng-class="{ &#39;color--state-selected&#39;: value.hex === $materialPalette.activeColor.hex }" ng-click="$materialPalette.setColor($event, value);" ng-style="{ &#39;background-color&#39;: value.hex, &#39;color&#39;: value.hexText }" role="button" tabindex="0" style="background-color: rgb(229, 57, 53)"></li>
+				<li class="color ng-scope" ng-repeat="value in palette.values" value="#D32F2F" aria-label="Red 700" aria-pressed="false" ng-class="{ &#39;color--state-selected&#39;: value.hex === $materialPalette.activeColor.hex }" ng-click="$materialPalette.setColor($event, value);" ng-style="{ &#39;background-color&#39;: value.hex, &#39;color&#39;: value.hexText }" role="button" tabindex="0" style="background-color: rgb(211, 47, 47)"></li>
+				<li class="color ng-scope" ng-repeat="value in palette.values" value="#C62828" aria-label="Red 800" aria-pressed="false" ng-class="{ &#39;color--state-selected&#39;: value.hex === $materialPalette.activeColor.hex }" ng-click="$materialPalette.setColor($event, value);" ng-style="{ &#39;background-color&#39;: value.hex, &#39;color&#39;: value.hexText }" role="button" tabindex="0" style="background-color: rgb(198, 40, 40)"></li>
+				<li class="color ng-scope" ng-repeat="value in palette.values" value="#B71C1C" aria-label="Red 900" aria-pressed="false" ng-class="{ &#39;color--state-selected&#39;: value.hex === $materialPalette.activeColor.hex }" ng-click="$materialPalette.setColor($event, value);" ng-style="{ &#39;background-color&#39;: value.hex, &#39;color&#39;: value.hexText }" role="button" tabindex="0" style="background-color: rgb(183, 28, 28)"></li>
+				<li class="color ng-scope" ng-repeat="value in palette.values" value="#FF8A80" aria-label="Red A100" aria-pressed="false" ng-class="{ &#39;color--state-selected&#39;: value.hex === $materialPalette.activeColor.hex }" ng-click="$materialPalette.setColor($event, value);" ng-style="{ &#39;background-color&#39;: value.hex, &#39;color&#39;: value.hexText }" role="button" tabindex="0" style="background-color: rgb(255, 138, 128)"></li>
+				<li class="color ng-scope" ng-repeat="value in palette.values" value="#FF5252" aria-label="Red A200" aria-pressed="false" ng-class="{ &#39;color--state-selected&#39;: value.hex === $materialPalette.activeColor.hex }" ng-click="$materialPalette.setColor($event, value);" ng-style="{ &#39;background-color&#39;: value.hex, &#39;color&#39;: value.hexText }" role="button" tabindex="0" style="background-color: rgb(255, 82, 82)"></li>
+				<li class="color ng-scope" ng-repeat="value in palette.values" value="#FF1744" aria-label="Red A400" aria-pressed="false" ng-class="{ &#39;color--state-selected&#39;: value.hex === $materialPalette.activeColor.hex }" ng-click="$materialPalette.setColor($event, value);" ng-style="{ &#39;background-color&#39;: value.hex, &#39;color&#39;: value.hexText }" role="button" tabindex="0" style="background-color: rgb(255, 23, 68)"></li>
+				<li class="color ng-scope" ng-repeat="value in palette.values" value="#D50000" aria-label="Red A700" aria-pressed="false" ng-class="{ &#39;color--state-selected&#39;: value.hex === $materialPalette.activeColor.hex }" ng-click="$materialPalette.setColor($event, value);" ng-style="{ &#39;background-color&#39;: value.hex, &#39;color&#39;: value.hexText }" role="button" tabindex="0" style="background-color: rgb(213, 0, 0)"></li>
+			</ul>
+			<ul class="palette-container ng-scope" ng-repeat="(index, palette) in $materialPalette.palettes">
+				<li class="color ng-scope" ng-repeat="value in palette.values" value="#FCE4EC" aria-label="Pink 50" aria-pressed="false" ng-class="{ &#39;color--state-selected&#39;: value.hex === $materialPalette.activeColor.hex }" ng-click="$materialPalette.setColor($event, value);" ng-style="{ &#39;background-color&#39;: value.hex, &#39;color&#39;: value.hexText }" role="button" tabindex="0" style="background-color: rgb(252, 228, 236)"></li>
+				<li class="color ng-scope" ng-repeat="value in palette.values" value="#F8BBD0" aria-label="Pink 100" aria-pressed="false" ng-class="{ &#39;color--state-selected&#39;: value.hex === $materialPalette.activeColor.hex }" ng-click="$materialPalette.setColor($event, value);" ng-style="{ &#39;background-color&#39;: value.hex, &#39;color&#39;: value.hexText }" role="button" tabindex="0" style="background-color: rgb(248, 187, 208)"></li>
+				<li class="color ng-scope" ng-repeat="value in palette.values" value="#F48FB1" aria-label="Pink 200" aria-pressed="false" ng-class="{ &#39;color--state-selected&#39;: value.hex === $materialPalette.activeColor.hex }" ng-click="$materialPalette.setColor($event, value);" ng-style="{ &#39;background-color&#39;: value.hex, &#39;color&#39;: value.hexText }" role="button" tabindex="0" style="background-color: rgb(244, 143, 177)"></li>
+				<li class="color ng-scope" ng-repeat="value in palette.values" value="#F06292" aria-label="Pink 300" aria-pressed="false" ng-class="{ &#39;color--state-selected&#39;: value.hex === $materialPalette.activeColor.hex }" ng-click="$materialPalette.setColor($event, value);" ng-style="{ &#39;background-color&#39;: value.hex, &#39;color&#39;: value.hexText }" role="button" tabindex="0" style="background-color: rgb(240, 98, 146)"></li>
+				<li class="color ng-scope" ng-repeat="value in palette.values" value="#EC407A" aria-label="Pink 400" aria-pressed="false" ng-class="{ &#39;color--state-selected&#39;: value.hex === $materialPalette.activeColor.hex }" ng-click="$materialPalette.setColor($event, value);" ng-style="{ &#39;background-color&#39;: value.hex, &#39;color&#39;: value.hexText }" role="button" tabindex="0" style="background-color: rgb(236, 64, 122)"></li>
+				<li class="color ng-scope" ng-repeat="value in palette.values" value="#E91E63" aria-label="Pink 500" aria-pressed="false" ng-class="{ &#39;color--state-selected&#39;: value.hex === $materialPalette.activeColor.hex }" ng-click="$materialPalette.setColor($event, value);" ng-style="{ &#39;background-color&#39;: value.hex, &#39;color&#39;: value.hexText }" role="button" tabindex="0" style="background-color: rgb(233, 30, 99)"></li>
+				<li class="color ng-scope" ng-repeat="value in palette.values" value="#D81B60" aria-label="Pink 600" aria-pressed="false" ng-class="{ &#39;color--state-selected&#39;: value.hex === $materialPalette.activeColor.hex }" ng-click="$materialPalette.setColor($event, value);" ng-style="{ &#39;background-color&#39;: value.hex, &#39;color&#39;: value.hexText }" role="button" tabindex="0" style="background-color: rgb(216, 27, 96)"></li>
+				<li class="color ng-scope" ng-repeat="value in palette.values" value="#C2185B" aria-label="Pink 700" aria-pressed="false" ng-class="{ &#39;color--state-selected&#39;: value.hex === $materialPalette.activeColor.hex }" ng-click="$materialPalette.setColor($event, value);" ng-style="{ &#39;background-color&#39;: value.hex, &#39;color&#39;: value.hexText }" role="button" tabindex="0" style="background-color: rgb(194, 24, 91)"></li>
+				<li class="color ng-scope" ng-repeat="value in palette.values" value="#AD1457" aria-label="Pink 800" aria-pressed="false" ng-class="{ &#39;color--state-selected&#39;: value.hex === $materialPalette.activeColor.hex }" ng-click="$materialPalette.setColor($event, value);" ng-style="{ &#39;background-color&#39;: value.hex, &#39;color&#39;: value.hexText }" role="button" tabindex="0" style="background-color: rgb(173, 20, 87)"></li>
+				<li class="color ng-scope" ng-repeat="value in palette.values" value="#880E4F" aria-label="Pink 900" aria-pressed="false" ng-class="{ &#39;color--state-selected&#39;: value.hex === $materialPalette.activeColor.hex }" ng-click="$materialPalette.setColor($event, value);" ng-style="{ &#39;background-color&#39;: value.hex, &#39;color&#39;: value.hexText }" role="button" tabindex="0" style="background-color: rgb(136, 14, 79)"></li>
+				<li class="color ng-scope" ng-repeat="value in palette.values" value="#FF80AB" aria-label="Pink A100" aria-pressed="false" ng-class="{ &#39;color--state-selected&#39;: value.hex === $materialPalette.activeColor.hex }" ng-click="$materialPalette.setColor($event, value);" ng-style="{ &#39;background-color&#39;: value.hex, &#39;color&#39;: value.hexText }" role="button" tabindex="0" style="background-color: rgb(255, 128, 171)"></li>
+				<li class="color ng-scope" ng-repeat="value in palette.values" value="#FF4081" aria-label="Pink A200" aria-pressed="false" ng-class="{ &#39;color--state-selected&#39;: value.hex === $materialPalette.activeColor.hex }" ng-click="$materialPalette.setColor($event, value);" ng-style="{ &#39;background-color&#39;: value.hex, &#39;color&#39;: value.hexText }" role="button" tabindex="0" style="background-color: rgb(255, 64, 129)"></li>
+				<li class="color ng-scope" ng-repeat="value in palette.values" value="#F50057" aria-label="Pink A400" aria-pressed="false" ng-class="{ &#39;color--state-selected&#39;: value.hex === $materialPalette.activeColor.hex }" ng-click="$materialPalette.setColor($event, value);" ng-style="{ &#39;background-color&#39;: value.hex, &#39;color&#39;: value.hexText }" role="button" tabindex="0" style="background-color: rgb(245, 0, 87)"></li>
+				<li class="color ng-scope" ng-repeat="value in palette.values" value="#C51162" aria-label="Pink A700" aria-pressed="false" ng-class="{ &#39;color--state-selected&#39;: value.hex === $materialPalette.activeColor.hex }" ng-click="$materialPalette.setColor($event, value);" ng-style="{ &#39;background-color&#39;: value.hex, &#39;color&#39;: value.hexText }" role="button" tabindex="0" style="background-color: rgb(197, 17, 98)"></li>
+			</ul>
+			<ul class="palette-container ng-scope" ng-repeat="(index, palette) in $materialPalette.palettes">
+				<li class="color ng-scope" ng-repeat="value in palette.values" value="#F3E5F5" aria-label="Purple 50" aria-pressed="false" ng-class="{ &#39;color--state-selected&#39;: value.hex === $materialPalette.activeColor.hex }" ng-click="$materialPalette.setColor($event, value);" ng-style="{ &#39;background-color&#39;: value.hex, &#39;color&#39;: value.hexText }" role="button" tabindex="0" style="background-color: rgb(243, 229, 245)"></li>
+				<li class="color ng-scope" ng-repeat="value in palette.values" value="#E1BEE7" aria-label="Purple 100" aria-pressed="false" ng-class="{ &#39;color--state-selected&#39;: value.hex === $materialPalette.activeColor.hex }" ng-click="$materialPalette.setColor($event, value);" ng-style="{ &#39;background-color&#39;: value.hex, &#39;color&#39;: value.hexText }" role="button" tabindex="0" style="background-color: rgb(225, 190, 231)"></li>
+				<li class="color ng-scope" ng-repeat="value in palette.values" value="#CE93D8" aria-label="Purple 200" aria-pressed="false" ng-class="{ &#39;color--state-selected&#39;: value.hex === $materialPalette.activeColor.hex }" ng-click="$materialPalette.setColor($event, value);" ng-style="{ &#39;background-color&#39;: value.hex, &#39;color&#39;: value.hexText }" role="button" tabindex="0" style="background-color: rgb(206, 147, 216)"></li>
+				<li class="color ng-scope" ng-repeat="value in palette.values" value="#BA68C8" aria-label="Purple 300" aria-pressed="false" ng-class="{ &#39;color--state-selected&#39;: value.hex === $materialPalette.activeColor.hex }" ng-click="$materialPalette.setColor($event, value);" ng-style="{ &#39;background-color&#39;: value.hex, &#39;color&#39;: value.hexText }" role="button" tabindex="0" style="background-color: rgb(186, 104, 200)"></li>
+				<li class="color ng-scope" ng-repeat="value in palette.values" value="#AB47BC" aria-label="Purple 400" aria-pressed="false" ng-class="{ &#39;color--state-selected&#39;: value.hex === $materialPalette.activeColor.hex }" ng-click="$materialPalette.setColor($event, value);" ng-style="{ &#39;background-color&#39;: value.hex, &#39;color&#39;: value.hexText }" role="button" tabindex="0" style="background-color: rgb(171, 71, 188)"></li>
+				<li class="color ng-scope" ng-repeat="value in palette.values" value="#9C27B0" aria-label="Purple 500" aria-pressed="false" ng-class="{ &#39;color--state-selected&#39;: value.hex === $materialPalette.activeColor.hex }" ng-click="$materialPalette.setColor($event, value);" ng-style="{ &#39;background-color&#39;: value.hex, &#39;color&#39;: value.hexText }" role="button" tabindex="0" style="background-color: rgb(156, 39, 176)"></li>
+				<li class="color ng-scope" ng-repeat="value in palette.values" value="#8E24AA" aria-label="Purple 600" aria-pressed="false" ng-class="{ &#39;color--state-selected&#39;: value.hex === $materialPalette.activeColor.hex }" ng-click="$materialPalette.setColor($event, value);" ng-style="{ &#39;background-color&#39;: value.hex, &#39;color&#39;: value.hexText }" role="button" tabindex="0" style="background-color: rgb(142, 36, 170)"></li>
+				<li class="color ng-scope" ng-repeat="value in palette.values" value="#7B1FA2" aria-label="Purple 700" aria-pressed="false" ng-class="{ &#39;color--state-selected&#39;: value.hex === $materialPalette.activeColor.hex }" ng-click="$materialPalette.setColor($event, value);" ng-style="{ &#39;background-color&#39;: value.hex, &#39;color&#39;: value.hexText }" role="button" tabindex="0" style="background-color: rgb(123, 31, 162)"></li>
+				<li class="color ng-scope" ng-repeat="value in palette.values" value="#6A1B9A" aria-label="Purple 800" aria-pressed="false" ng-class="{ &#39;color--state-selected&#39;: value.hex === $materialPalette.activeColor.hex }" ng-click="$materialPalette.setColor($event, value);" ng-style="{ &#39;background-color&#39;: value.hex, &#39;color&#39;: value.hexText }" role="button" tabindex="0" style="background-color: rgb(106, 27, 154)"></li>
+				<li class="color ng-scope" ng-repeat="value in palette.values" value="#4A148C" aria-label="Purple 900" aria-pressed="false" ng-class="{ &#39;color--state-selected&#39;: value.hex === $materialPalette.activeColor.hex }" ng-click="$materialPalette.setColor($event, value);" ng-style="{ &#39;background-color&#39;: value.hex, &#39;color&#39;: value.hexText }" role="button" tabindex="0" style="background-color: rgb(74, 20, 140)"></li>
+				<li class="color ng-scope" ng-repeat="value in palette.values" value="#EA80FC" aria-label="Purple A100" aria-pressed="false" ng-class="{ &#39;color--state-selected&#39;: value.hex === $materialPalette.activeColor.hex }" ng-click="$materialPalette.setColor($event, value);" ng-style="{ &#39;background-color&#39;: value.hex, &#39;color&#39;: value.hexText }" role="button" tabindex="0" style="background-color: rgb(234, 128, 252)"></li>
+				<li class="color ng-scope" ng-repeat="value in palette.values" value="#E040FB" aria-label="Purple A200" aria-pressed="false" ng-class="{ &#39;color--state-selected&#39;: value.hex === $materialPalette.activeColor.hex }" ng-click="$materialPalette.setColor($event, value);" ng-style="{ &#39;background-color&#39;: value.hex, &#39;color&#39;: value.hexText }" role="button" tabindex="0" style="background-color: rgb(224, 64, 251)"></li>
+				<li class="color ng-scope" ng-repeat="value in palette.values" value="#D500F9" aria-label="Purple A400" aria-pressed="false" ng-class="{ &#39;color--state-selected&#39;: value.hex === $materialPalette.activeColor.hex }" ng-click="$materialPalette.setColor($event, value);" ng-style="{ &#39;background-color&#39;: value.hex, &#39;color&#39;: value.hexText }" role="button" tabindex="0" style="background-color: rgb(213, 0, 249)"></li>
+				<li class="color ng-scope" ng-repeat="value in palette.values" value="#AA00FF" aria-label="Purple A700" aria-pressed="false" ng-class="{ &#39;color--state-selected&#39;: value.hex === $materialPalette.activeColor.hex }" ng-click="$materialPalette.setColor($event, value);" ng-style="{ &#39;background-color&#39;: value.hex, &#39;color&#39;: value.hexText }" role="button" tabindex="0" style="background-color: rgb(170, 0, 255)"></li>
+			</ul>
+			<ul class="palette-container ng-scope" ng-repeat="(index, palette) in $materialPalette.palettes">
+				<li class="color ng-scope" ng-repeat="value in palette.values" value="#EDE7F6" aria-label="Deep Purple 50" aria-pressed="false" ng-class="{ &#39;color--state-selected&#39;: value.hex === $materialPalette.activeColor.hex }" ng-click="$materialPalette.setColor($event, value);" ng-style="{ &#39;background-color&#39;: value.hex, &#39;color&#39;: value.hexText }" role="button" tabindex="0" style="background-color: rgb(237, 231, 246)"></li>
+				<li class="color ng-scope" ng-repeat="value in palette.values" value="#D1C4E9" aria-label="Deep Purple 100" aria-pressed="false" ng-class="{ &#39;color--state-selected&#39;: value.hex === $materialPalette.activeColor.hex }" ng-click="$materialPalette.setColor($event, value);" ng-style="{ &#39;background-color&#39;: value.hex, &#39;color&#39;: value.hexText }" role="button" tabindex="0" style="background-color: rgb(209, 196, 233)"></li>
+				<li class="color ng-scope" ng-repeat="value in palette.values" value="#B39DDB" aria-label="Deep Purple 200" aria-pressed="false" ng-class="{ &#39;color--state-selected&#39;: value.hex === $materialPalette.activeColor.hex }" ng-click="$materialPalette.setColor($event, value);" ng-style="{ &#39;background-color&#39;: value.hex, &#39;color&#39;: value.hexText }" role="button" tabindex="0" style="background-color: rgb(179, 157, 219)"></li>
+				<li class="color ng-scope" ng-repeat="value in palette.values" value="#9575CD" aria-label="Deep Purple 300" aria-pressed="false" ng-class="{ &#39;color--state-selected&#39;: value.hex === $materialPalette.activeColor.hex }" ng-click="$materialPalette.setColor($event, value);" ng-style="{ &#39;background-color&#39;: value.hex, &#39;color&#39;: value.hexText }" role="button" tabindex="0" style="background-color: rgb(149, 117, 205)"></li>
+				<li class="color ng-scope" ng-repeat="value in palette.values" value="#7E57C2" aria-label="Deep Purple 400" aria-pressed="false" ng-class="{ &#39;color--state-selected&#39;: value.hex === $materialPalette.activeColor.hex }" ng-click="$materialPalette.setColor($event, value);" ng-style="{ &#39;background-color&#39;: value.hex, &#39;color&#39;: value.hexText }" role="button" tabindex="0" style="background-color: rgb(126, 87, 194)"></li>
+				<li class="color ng-scope" ng-repeat="value in palette.values" value="#673AB7" aria-label="Deep Purple 500" aria-pressed="false" ng-class="{ &#39;color--state-selected&#39;: value.hex === $materialPalette.activeColor.hex }" ng-click="$materialPalette.setColor($event, value);" ng-style="{ &#39;background-color&#39;: value.hex, &#39;color&#39;: value.hexText }" role="button" tabindex="0" style="background-color: rgb(103, 58, 183)"></li>
+				<li class="color ng-scope" ng-repeat="value in palette.values" value="#5E35B1" aria-label="Deep Purple 600" aria-pressed="false" ng-class="{ &#39;color--state-selected&#39;: value.hex === $materialPalette.activeColor.hex }" ng-click="$materialPalette.setColor($event, value);" ng-style="{ &#39;background-color&#39;: value.hex, &#39;color&#39;: value.hexText }" role="button" tabindex="0" style="background-color: rgb(94, 53, 177)"></li>
+				<li class="color ng-scope" ng-repeat="value in palette.values" value="#512DA8" aria-label="Deep Purple 700" aria-pressed="false" ng-class="{ &#39;color--state-selected&#39;: value.hex === $materialPalette.activeColor.hex }" ng-click="$materialPalette.setColor($event, value);" ng-style="{ &#39;background-color&#39;: value.hex, &#39;color&#39;: value.hexText }" role="button" tabindex="0" style="background-color: rgb(81, 45, 168)"></li>
+				<li class="color ng-scope" ng-repeat="value in palette.values" value="#4527A0" aria-label="Deep Purple 800" aria-pressed="false" ng-class="{ &#39;color--state-selected&#39;: value.hex === $materialPalette.activeColor.hex }" ng-click="$materialPalette.setColor($event, value);" ng-style="{ &#39;background-color&#39;: value.hex, &#39;color&#39;: value.hexText }" role="button" tabindex="0" style="background-color: rgb(69, 39, 160)"></li>
+				<li class="color ng-scope" ng-repeat="value in palette.values" value="#311B92" aria-label="Deep Purple 900" aria-pressed="false" ng-class="{ &#39;color--state-selected&#39;: value.hex === $materialPalette.activeColor.hex }" ng-click="$materialPalette.setColor($event, value);" ng-style="{ &#39;background-color&#39;: value.hex, &#39;color&#39;: value.hexText }" role="button" tabindex="0" style="background-color: rgb(49, 27, 146)"></li>
+				<li class="color ng-scope color--state-selected" ng-repeat="value in palette.values" value="#B388FF" aria-label="Deep Purple A100" aria-pressed="true" ng-class="{ &#39;color--state-selected&#39;: value.hex === $materialPalette.activeColor.hex }" ng-click="$materialPalette.setColor($event, value);" ng-style="{ &#39;background-color&#39;: value.hex, &#39;color&#39;: value.hexText }" role="button" tabindex="0" style="background-color: rgb(179, 136, 255)"></li>
+				<li class="color ng-scope" ng-repeat="value in palette.values" value="#7C4DFF" aria-label="Deep Purple A200" aria-pressed="false" ng-class="{ &#39;color--state-selected&#39;: value.hex === $materialPalette.activeColor.hex }" ng-click="$materialPalette.setColor($event, value);" ng-style="{ &#39;background-color&#39;: value.hex, &#39;color&#39;: value.hexText }" role="button" tabindex="0" style="background-color: rgb(124, 77, 255)"></li>
+				<li class="color ng-scope" ng-repeat="value in palette.values" value="#651FFF" aria-label="Deep Purple A400" aria-pressed="false" ng-class="{ &#39;color--state-selected&#39;: value.hex === $materialPalette.activeColor.hex }" ng-click="$materialPalette.setColor($event, value);" ng-style="{ &#39;background-color&#39;: value.hex, &#39;color&#39;: value.hexText }" role="button" tabindex="0" style="background-color: rgb(101, 31, 255)"></li>
+				<li class="color ng-scope" ng-repeat="value in palette.values" value="#6200EA" aria-label="Deep Purple A700" aria-pressed="false" ng-class="{ &#39;color--state-selected&#39;: value.hex === $materialPalette.activeColor.hex }" ng-click="$materialPalette.setColor($event, value);" ng-style="{ &#39;background-color&#39;: value.hex, &#39;color&#39;: value.hexText }" role="button" tabindex="0" style="background-color: rgb(98, 0, 234)"></li>
+			</ul>
+			<ul class="palette-container ng-scope" ng-repeat="(index, palette) in $materialPalette.palettes">
+				<li class="color ng-scope" ng-repeat="value in palette.values" value="#E8EAF6" aria-label="Indigo 50" aria-pressed="false" ng-class="{ &#39;color--state-selected&#39;: value.hex === $materialPalette.activeColor.hex }" ng-click="$materialPalette.setColor($event, value);" ng-style="{ &#39;background-color&#39;: value.hex, &#39;color&#39;: value.hexText }" role="button" tabindex="0" style="background-color: rgb(232, 234, 246)"></li>
+				<li class="color ng-scope" ng-repeat="value in palette.values" value="#C5CAE9" aria-label="Indigo 100" aria-pressed="false" ng-class="{ &#39;color--state-selected&#39;: value.hex === $materialPalette.activeColor.hex }" ng-click="$materialPalette.setColor($event, value);" ng-style="{ &#39;background-color&#39;: value.hex, &#39;color&#39;: value.hexText }" role="button" tabindex="0" style="background-color: rgb(197, 202, 233)"></li>
+				<li class="color ng-scope" ng-repeat="value in palette.values" value="#9FA8DA" aria-label="Indigo 200" aria-pressed="false" ng-class="{ &#39;color--state-selected&#39;: value.hex === $materialPalette.activeColor.hex }" ng-click="$materialPalette.setColor($event, value);" ng-style="{ &#39;background-color&#39;: value.hex, &#39;color&#39;: value.hexText }" role="button" tabindex="0" style="background-color: rgb(159, 168, 218)"></li>
+				<li class="color ng-scope" ng-repeat="value in palette.values" value="#7986CB" aria-label="Indigo 300" aria-pressed="false" ng-class="{ &#39;color--state-selected&#39;: value.hex === $materialPalette.activeColor.hex }" ng-click="$materialPalette.setColor($event, value);" ng-style="{ &#39;background-color&#39;: value.hex, &#39;color&#39;: value.hexText }" role="button" tabindex="0" style="background-color: rgb(121, 134, 203)"></li>
+				<li class="color ng-scope" ng-repeat="value in palette.values" value="#5C6BC0" aria-label="Indigo 400" aria-pressed="false" ng-class="{ &#39;color--state-selected&#39;: value.hex === $materialPalette.activeColor.hex }" ng-click="$materialPalette.setColor($event, value);" ng-style="{ &#39;background-color&#39;: value.hex, &#39;color&#39;: value.hexText }" role="button" tabindex="0" style="background-color: rgb(92, 107, 192)"></li>
+				<li class="color ng-scope" ng-repeat="value in palette.values" value="#3F51B5" aria-label="Indigo 500" aria-pressed="false" ng-class="{ &#39;color--state-selected&#39;: value.hex === $materialPalette.activeColor.hex }" ng-click="$materialPalette.setColor($event, value);" ng-style="{ &#39;background-color&#39;: value.hex, &#39;color&#39;: value.hexText }" role="button" tabindex="0" style="background-color: rgb(63, 81, 181)"></li>
+				<li class="color ng-scope" ng-repeat="value in palette.values" value="#3949AB" aria-label="Indigo 600" aria-pressed="false" ng-class="{ &#39;color--state-selected&#39;: value.hex === $materialPalette.activeColor.hex }" ng-click="$materialPalette.setColor($event, value);" ng-style="{ &#39;background-color&#39;: value.hex, &#39;color&#39;: value.hexText }" role="button" tabindex="0" style="background-color: rgb(57, 73, 171)"></li>
+				<li class="color ng-scope" ng-repeat="value in palette.values" value="#303F9F" aria-label="Indigo 700" aria-pressed="false" ng-class="{ &#39;color--state-selected&#39;: value.hex === $materialPalette.activeColor.hex }" ng-click="$materialPalette.setColor($event, value);" ng-style="{ &#39;background-color&#39;: value.hex, &#39;color&#39;: value.hexText }" role="button" tabindex="0" style="background-color: rgb(48, 63, 159)"></li>
+				<li class="color ng-scope" ng-repeat="value in palette.values" value="#283593" aria-label="Indigo 800" aria-pressed="false" ng-class="{ &#39;color--state-selected&#39;: value.hex === $materialPalette.activeColor.hex }" ng-click="$materialPalette.setColor($event, value);" ng-style="{ &#39;background-color&#39;: value.hex, &#39;color&#39;: value.hexText }" role="button" tabindex="0" style="background-color: rgb(40, 53, 147)"></li>
+				<li class="color ng-scope" ng-repeat="value in palette.values" value="#1A237E" aria-label="Indigo 900" aria-pressed="false" ng-class="{ &#39;color--state-selected&#39;: value.hex === $materialPalette.activeColor.hex }" ng-click="$materialPalette.setColor($event, value);" ng-style="{ &#39;background-color&#39;: value.hex, &#39;color&#39;: value.hexText }" role="button" tabindex="0" style="background-color: rgb(26, 35, 126)"></li>
+				<li class="color ng-scope" ng-repeat="value in palette.values" value="#8C9EFF" aria-label="Indigo A100" aria-pressed="false" ng-class="{ &#39;color--state-selected&#39;: value.hex === $materialPalette.activeColor.hex }" ng-click="$materialPalette.setColor($event, value);" ng-style="{ &#39;background-color&#39;: value.hex, &#39;color&#39;: value.hexText }" role="button" tabindex="0" style="background-color: rgb(140, 158, 255)"></li>
+				<li class="color ng-scope" ng-repeat="value in palette.values" value="#536DFE" aria-label="Indigo A200" aria-pressed="false" ng-class="{ &#39;color--state-selected&#39;: value.hex === $materialPalette.activeColor.hex }" ng-click="$materialPalette.setColor($event, value);" ng-style="{ &#39;background-color&#39;: value.hex, &#39;color&#39;: value.hexText }" role="button" tabindex="0" style="background-color: rgb(83, 109, 254)"></li>
+				<li class="color ng-scope" ng-repeat="value in palette.values" value="#3D5AFE" aria-label="Indigo A400" aria-pressed="false" ng-class="{ &#39;color--state-selected&#39;: value.hex === $materialPalette.activeColor.hex }" ng-click="$materialPalette.setColor($event, value);" ng-style="{ &#39;background-color&#39;: value.hex, &#39;color&#39;: value.hexText }" role="button" tabindex="0" style="background-color: rgb(61, 90, 254)"></li>
+				<li class="color ng-scope" ng-repeat="value in palette.values" value="#304FFE" aria-label="Indigo A700" aria-pressed="false" ng-class="{ &#39;color--state-selected&#39;: value.hex === $materialPalette.activeColor.hex }" ng-click="$materialPalette.setColor($event, value);" ng-style="{ &#39;background-color&#39;: value.hex, &#39;color&#39;: value.hexText }" role="button" tabindex="0" style="background-color: rgb(48, 79, 254)"></li>
+			</ul>
+			<ul class="palette-container ng-scope" ng-repeat="(index, palette) in $materialPalette.palettes">
+				<li class="color ng-scope" ng-repeat="value in palette.values" value="#E3F2FD" aria-label="Blue 50" aria-pressed="false" ng-class="{ &#39;color--state-selected&#39;: value.hex === $materialPalette.activeColor.hex }" ng-click="$materialPalette.setColor($event, value);" ng-style="{ &#39;background-color&#39;: value.hex, &#39;color&#39;: value.hexText }" role="button" tabindex="0" style="background-color: rgb(227, 242, 253)"></li>
+				<li class="color ng-scope" ng-repeat="value in palette.values" value="#BBDEFB" aria-label="Blue 100" aria-pressed="false" ng-class="{ &#39;color--state-selected&#39;: value.hex === $materialPalette.activeColor.hex }" ng-click="$materialPalette.setColor($event, value);" ng-style="{ &#39;background-color&#39;: value.hex, &#39;color&#39;: value.hexText }" role="button" tabindex="0" style="background-color: rgb(187, 222, 251)"></li>
+				<li class="color ng-scope" ng-repeat="value in palette.values" value="#90CAF9" aria-label="Blue 200" aria-pressed="false" ng-class="{ &#39;color--state-selected&#39;: value.hex === $materialPalette.activeColor.hex }" ng-click="$materialPalette.setColor($event, value);" ng-style="{ &#39;background-color&#39;: value.hex, &#39;color&#39;: value.hexText }" role="button" tabindex="0" style="background-color: rgb(144, 202, 249)"></li>
+				<li class="color ng-scope" ng-repeat="value in palette.values" value="#64B5F6" aria-label="Blue 300" aria-pressed="false" ng-class="{ &#39;color--state-selected&#39;: value.hex === $materialPalette.activeColor.hex }" ng-click="$materialPalette.setColor($event, value);" ng-style="{ &#39;background-color&#39;: value.hex, &#39;color&#39;: value.hexText }" role="button" tabindex="0" style="background-color: rgb(100, 181, 246)"></li>
+				<li class="color ng-scope" ng-repeat="value in palette.values" value="#42A5F5" aria-label="Blue 400" aria-pressed="false" ng-class="{ &#39;color--state-selected&#39;: value.hex === $materialPalette.activeColor.hex }" ng-click="$materialPalette.setColor($event, value);" ng-style="{ &#39;background-color&#39;: value.hex, &#39;color&#39;: value.hexText }" role="button" tabindex="0" style="background-color: rgb(66, 165, 245)"></li>
+				<li class="color ng-scope" ng-repeat="value in palette.values" value="#2196F3" aria-label="Blue 500" aria-pressed="false" ng-class="{ &#39;color--state-selected&#39;: value.hex === $materialPalette.activeColor.hex }" ng-click="$materialPalette.setColor($event, value);" ng-style="{ &#39;background-color&#39;: value.hex, &#39;color&#39;: value.hexText }" role="button" tabindex="0" style="background-color: rgb(33, 150, 243)"></li>
+				<li class="color ng-scope" ng-repeat="value in palette.values" value="#1E88E5" aria-label="Blue 600" aria-pressed="false" ng-class="{ &#39;color--state-selected&#39;: value.hex === $materialPalette.activeColor.hex }" ng-click="$materialPalette.setColor($event, value);" ng-style="{ &#39;background-color&#39;: value.hex, &#39;color&#39;: value.hexText }" role="button" tabindex="0" style="background-color: rgb(30, 136, 229)"></li>
+				<li class="color ng-scope" ng-repeat="value in palette.values" value="#1976D2" aria-label="Blue 700" aria-pressed="false" ng-class="{ &#39;color--state-selected&#39;: value.hex === $materialPalette.activeColor.hex }" ng-click="$materialPalette.setColor($event, value);" ng-style="{ &#39;background-color&#39;: value.hex, &#39;color&#39;: value.hexText }" role="button" tabindex="0" style="background-color: rgb(25, 118, 210)"></li>
+				<li class="color ng-scope" ng-repeat="value in palette.values" value="#1565C0" aria-label="Blue 800" aria-pressed="false" ng-class="{ &#39;color--state-selected&#39;: value.hex === $materialPalette.activeColor.hex }" ng-click="$materialPalette.setColor($event, value);" ng-style="{ &#39;background-color&#39;: value.hex, &#39;color&#39;: value.hexText }" role="button" tabindex="0" style="background-color: rgb(21, 101, 192)"></li>
+				<li class="color ng-scope" ng-repeat="value in palette.values" value="#0D47A1" aria-label="Blue 900" aria-pressed="false" ng-class="{ &#39;color--state-selected&#39;: value.hex === $materialPalette.activeColor.hex }" ng-click="$materialPalette.setColor($event, value);" ng-style="{ &#39;background-color&#39;: value.hex, &#39;color&#39;: value.hexText }" role="button" tabindex="0" style="background-color: rgb(13, 71, 161)"></li>
+				<li class="color ng-scope" ng-repeat="value in palette.values" value="#82B1FF" aria-label="Blue A100" aria-pressed="false" ng-class="{ &#39;color--state-selected&#39;: value.hex === $materialPalette.activeColor.hex }" ng-click="$materialPalette.setColor($event, value);" ng-style="{ &#39;background-color&#39;: value.hex, &#39;color&#39;: value.hexText }" role="button" tabindex="0" style="background-color: rgb(130, 177, 255)"></li>
+				<li class="color ng-scope" ng-repeat="value in palette.values" value="#448AFF" aria-label="Blue A200" aria-pressed="false" ng-class="{ &#39;color--state-selected&#39;: value.hex === $materialPalette.activeColor.hex }" ng-click="$materialPalette.setColor($event, value);" ng-style="{ &#39;background-color&#39;: value.hex, &#39;color&#39;: value.hexText }" role="button" tabindex="0" style="background-color: rgb(68, 138, 255)"></li>
+				<li class="color ng-scope" ng-repeat="value in palette.values" value="#2979FF" aria-label="Blue A400" aria-pressed="false" ng-class="{ &#39;color--state-selected&#39;: value.hex === $materialPalette.activeColor.hex }" ng-click="$materialPalette.setColor($event, value);" ng-style="{ &#39;background-color&#39;: value.hex, &#39;color&#39;: value.hexText }" role="button" tabindex="0" style="background-color: rgb(41, 121, 255)"></li>
+				<li class="color ng-scope" ng-repeat="value in palette.values" value="#2962FF" aria-label="Blue A700" aria-pressed="false" ng-class="{ &#39;color--state-selected&#39;: value.hex === $materialPalette.activeColor.hex }" ng-click="$materialPalette.setColor($event, value);" ng-style="{ &#39;background-color&#39;: value.hex, &#39;color&#39;: value.hexText }" role="button" tabindex="0" style="background-color: rgb(41, 98, 255)"></li>
+			</ul>
+
+			<ul class="palette-container ng-scope" ng-repeat="(index, palette) in $materialPalette.palettes">
+				<li class="color ng-scope" ng-repeat="value in palette.values" value="#E0F7FA" aria-label="Cyan 50" aria-pressed="false" ng-class="{ &#39;color--state-selected&#39;: value.hex === $materialPalette.activeColor.hex }" ng-click="$materialPalette.setColor($event, value);" ng-style="{ &#39;background-color&#39;: value.hex, &#39;color&#39;: value.hexText }" role="button" tabindex="0" style="background-color: rgb(224, 247, 250)"></li>
+				<li class="color ng-scope" ng-repeat="value in palette.values" value="#B2EBF2" aria-label="Cyan 100" aria-pressed="false" ng-class="{ &#39;color--state-selected&#39;: value.hex === $materialPalette.activeColor.hex }" ng-click="$materialPalette.setColor($event, value);" ng-style="{ &#39;background-color&#39;: value.hex, &#39;color&#39;: value.hexText }" role="button" tabindex="0" style="background-color: rgb(178, 235, 242)"></li>
+				<li class="color ng-scope" ng-repeat="value in palette.values" value="#80DEEA" aria-label="Cyan 200" aria-pressed="false" ng-class="{ &#39;color--state-selected&#39;: value.hex === $materialPalette.activeColor.hex }" ng-click="$materialPalette.setColor($event, value);" ng-style="{ &#39;background-color&#39;: value.hex, &#39;color&#39;: value.hexText }" role="button" tabindex="0" style="background-color: rgb(128, 222, 234)"></li>
+				<li class="color ng-scope" ng-repeat="value in palette.values" value="#4DD0E1" aria-label="Cyan 300" aria-pressed="false" ng-class="{ &#39;color--state-selected&#39;: value.hex === $materialPalette.activeColor.hex }" ng-click="$materialPalette.setColor($event, value);" ng-style="{ &#39;background-color&#39;: value.hex, &#39;color&#39;: value.hexText }" role="button" tabindex="0" style="background-color: rgb(77, 208, 225)"></li>
+				<li class="color ng-scope" ng-repeat="value in palette.values" value="#26C6DA" aria-label="Cyan 400" aria-pressed="false" ng-class="{ &#39;color--state-selected&#39;: value.hex === $materialPalette.activeColor.hex }" ng-click="$materialPalette.setColor($event, value);" ng-style="{ &#39;background-color&#39;: value.hex, &#39;color&#39;: value.hexText }" role="button" tabindex="0" style="background-color: rgb(38, 198, 218)"></li>
+				<li class="color ng-scope" ng-repeat="value in palette.values" value="#00BCD4" aria-label="Cyan 500" aria-pressed="false" ng-class="{ &#39;color--state-selected&#39;: value.hex === $materialPalette.activeColor.hex }" ng-click="$materialPalette.setColor($event, value);" ng-style="{ &#39;background-color&#39;: value.hex, &#39;color&#39;: value.hexText }" role="button" tabindex="0" style="background-color: rgb(0, 188, 212)"></li>
+				<li class="color ng-scope" ng-repeat="value in palette.values" value="#00ACC1" aria-label="Cyan 600" aria-pressed="false" ng-class="{ &#39;color--state-selected&#39;: value.hex === $materialPalette.activeColor.hex }" ng-click="$materialPalette.setColor($event, value);" ng-style="{ &#39;background-color&#39;: value.hex, &#39;color&#39;: value.hexText }" role="button" tabindex="0" style="background-color: rgb(0, 172, 193)"></li>
+				<li class="color ng-scope" ng-repeat="value in palette.values" value="#0097A7" aria-label="Cyan 700" aria-pressed="false" ng-class="{ &#39;color--state-selected&#39;: value.hex === $materialPalette.activeColor.hex }" ng-click="$materialPalette.setColor($event, value);" ng-style="{ &#39;background-color&#39;: value.hex, &#39;color&#39;: value.hexText }" role="button" tabindex="0" style="background-color: rgb(0, 151, 167)"></li>
+				<li class="color ng-scope" ng-repeat="value in palette.values" value="#00838F" aria-label="Cyan 800" aria-pressed="false" ng-class="{ &#39;color--state-selected&#39;: value.hex === $materialPalette.activeColor.hex }" ng-click="$materialPalette.setColor($event, value);" ng-style="{ &#39;background-color&#39;: value.hex, &#39;color&#39;: value.hexText }" role="button" tabindex="0" style="background-color: rgb(0, 131, 143)"></li>
+				<li class="color ng-scope" ng-repeat="value in palette.values" value="#006064" aria-label="Cyan 900" aria-pressed="false" ng-class="{ &#39;color--state-selected&#39;: value.hex === $materialPalette.activeColor.hex }" ng-click="$materialPalette.setColor($event, value);" ng-style="{ &#39;background-color&#39;: value.hex, &#39;color&#39;: value.hexText }" role="button" tabindex="0" style="background-color: rgb(0, 96, 100)"></li>
+				<li class="color ng-scope" ng-repeat="value in palette.values" value="#84FFFF" aria-label="Cyan A100" aria-pressed="false" ng-class="{ &#39;color--state-selected&#39;: value.hex === $materialPalette.activeColor.hex }" ng-click="$materialPalette.setColor($event, value);" ng-style="{ &#39;background-color&#39;: value.hex, &#39;color&#39;: value.hexText }" role="button" tabindex="0" style="background-color: rgb(132, 255, 255)"></li>
+				<li class="color ng-scope" ng-repeat="value in palette.values" value="#18FFFF" aria-label="Cyan A200" aria-pressed="false" ng-class="{ &#39;color--state-selected&#39;: value.hex === $materialPalette.activeColor.hex }" ng-click="$materialPalette.setColor($event, value);" ng-style="{ &#39;background-color&#39;: value.hex, &#39;color&#39;: value.hexText }" role="button" tabindex="0" style="background-color: rgb(24, 255, 255)"></li>
+				<li class="color ng-scope" ng-repeat="value in palette.values" value="#00E5FF" aria-label="Cyan A400" aria-pressed="false" ng-class="{ &#39;color--state-selected&#39;: value.hex === $materialPalette.activeColor.hex }" ng-click="$materialPalette.setColor($event, value);" ng-style="{ &#39;background-color&#39;: value.hex, &#39;color&#39;: value.hexText }" role="button" tabindex="0" style="background-color: rgb(0, 229, 255)"></li>
+				<li class="color ng-scope" ng-repeat="value in palette.values" value="#00B8D4" aria-label="Cyan A700" aria-pressed="false" ng-class="{ &#39;color--state-selected&#39;: value.hex === $materialPalette.activeColor.hex }" ng-click="$materialPalette.setColor($event, value);" ng-style="{ &#39;background-color&#39;: value.hex, &#39;color&#39;: value.hexText }" role="button" tabindex="0" style="background-color: rgb(0, 184, 212)"></li>
+			</ul>
+			<ul class="palette-container ng-scope" ng-repeat="(index, palette) in $materialPalette.palettes">
+				<li class="color ng-scope" ng-repeat="value in palette.values" value="#E0F2F1" aria-label="Teal 50" aria-pressed="false" ng-class="{ &#39;color--state-selected&#39;: value.hex === $materialPalette.activeColor.hex }" ng-click="$materialPalette.setColor($event, value);" ng-style="{ &#39;background-color&#39;: value.hex, &#39;color&#39;: value.hexText }" role="button" tabindex="0" style="background-color: rgb(224, 242, 241)"></li>
+				<li class="color ng-scope" ng-repeat="value in palette.values" value="#B2DFDB" aria-label="Teal 100" aria-pressed="false" ng-class="{ &#39;color--state-selected&#39;: value.hex === $materialPalette.activeColor.hex }" ng-click="$materialPalette.setColor($event, value);" ng-style="{ &#39;background-color&#39;: value.hex, &#39;color&#39;: value.hexText }" role="button" tabindex="0" style="background-color: rgb(178, 223, 219)"></li>
+				<li class="color ng-scope" ng-repeat="value in palette.values" value="#80CBC4" aria-label="Teal 200" aria-pressed="false" ng-class="{ &#39;color--state-selected&#39;: value.hex === $materialPalette.activeColor.hex }" ng-click="$materialPalette.setColor($event, value);" ng-style="{ &#39;background-color&#39;: value.hex, &#39;color&#39;: value.hexText }" role="button" tabindex="0" style="background-color: rgb(128, 203, 196)"></li>
+				<li class="color ng-scope" ng-repeat="value in palette.values" value="#4DB6AC" aria-label="Teal 300" aria-pressed="false" ng-class="{ &#39;color--state-selected&#39;: value.hex === $materialPalette.activeColor.hex }" ng-click="$materialPalette.setColor($event, value);" ng-style="{ &#39;background-color&#39;: value.hex, &#39;color&#39;: value.hexText }" role="button" tabindex="0" style="background-color: rgb(77, 182, 172)"></li>
+				<li class="color ng-scope" ng-repeat="value in palette.values" value="#26A69A" aria-label="Teal 400" aria-pressed="false" ng-class="{ &#39;color--state-selected&#39;: value.hex === $materialPalette.activeColor.hex }" ng-click="$materialPalette.setColor($event, value);" ng-style="{ &#39;background-color&#39;: value.hex, &#39;color&#39;: value.hexText }" role="button" tabindex="0" style="background-color: rgb(38, 166, 154)"></li>
+				<li class="color ng-scope" ng-repeat="value in palette.values" value="#009688" aria-label="Teal 500" aria-pressed="false" ng-class="{ &#39;color--state-selected&#39;: value.hex === $materialPalette.activeColor.hex }" ng-click="$materialPalette.setColor($event, value);" ng-style="{ &#39;background-color&#39;: value.hex, &#39;color&#39;: value.hexText }" role="button" tabindex="0" style="background-color: rgb(0, 150, 136)"></li>
+				<li class="color ng-scope" ng-repeat="value in palette.values" value="#00897B" aria-label="Teal 600" aria-pressed="false" ng-class="{ &#39;color--state-selected&#39;: value.hex === $materialPalette.activeColor.hex }" ng-click="$materialPalette.setColor($event, value);" ng-style="{ &#39;background-color&#39;: value.hex, &#39;color&#39;: value.hexText }" role="button" tabindex="0" style="background-color: rgb(0, 137, 123)"></li>
+				<li class="color ng-scope" ng-repeat="value in palette.values" value="#00796B" aria-label="Teal 700" aria-pressed="false" ng-class="{ &#39;color--state-selected&#39;: value.hex === $materialPalette.activeColor.hex }" ng-click="$materialPalette.setColor($event, value);" ng-style="{ &#39;background-color&#39;: value.hex, &#39;color&#39;: value.hexText }" role="button" tabindex="0" style="background-color: rgb(0, 121, 107)"></li>
+				<li class="color ng-scope" ng-repeat="value in palette.values" value="#00695C" aria-label="Teal 800" aria-pressed="false" ng-class="{ &#39;color--state-selected&#39;: value.hex === $materialPalette.activeColor.hex }" ng-click="$materialPalette.setColor($event, value);" ng-style="{ &#39;background-color&#39;: value.hex, &#39;color&#39;: value.hexText }" role="button" tabindex="0" style="background-color: rgb(0, 105, 92)"></li>
+				<li class="color ng-scope" ng-repeat="value in palette.values" value="#004D40" aria-label="Teal 900" aria-pressed="false" ng-class="{ &#39;color--state-selected&#39;: value.hex === $materialPalette.activeColor.hex }" ng-click="$materialPalette.setColor($event, value);" ng-style="{ &#39;background-color&#39;: value.hex, &#39;color&#39;: value.hexText }" role="button" tabindex="0" style="background-color: rgb(0, 77, 64)"></li>
+				<li class="color ng-scope" ng-repeat="value in palette.values" value="#A7FFEB" aria-label="Teal A100" aria-pressed="false" ng-class="{ &#39;color--state-selected&#39;: value.hex === $materialPalette.activeColor.hex }" ng-click="$materialPalette.setColor($event, value);" ng-style="{ &#39;background-color&#39;: value.hex, &#39;color&#39;: value.hexText }" role="button" tabindex="0" style="background-color: rgb(167, 255, 235)"></li>
+				<li class="color ng-scope" ng-repeat="value in palette.values" value="#64FFDA" aria-label="Teal A200" aria-pressed="false" ng-class="{ &#39;color--state-selected&#39;: value.hex === $materialPalette.activeColor.hex }" ng-click="$materialPalette.setColor($event, value);" ng-style="{ &#39;background-color&#39;: value.hex, &#39;color&#39;: value.hexText }" role="button" tabindex="0" style="background-color: rgb(100, 255, 218)"></li>
+				<li class="color ng-scope" ng-repeat="value in palette.values" value="#1DE9B6" aria-label="Teal A400" aria-pressed="false" ng-class="{ &#39;color--state-selected&#39;: value.hex === $materialPalette.activeColor.hex }" ng-click="$materialPalette.setColor($event, value);" ng-style="{ &#39;background-color&#39;: value.hex, &#39;color&#39;: value.hexText }" role="button" tabindex="0" style="background-color: rgb(29, 233, 182)"></li>
+				<li class="color ng-scope" ng-repeat="value in palette.values" value="#00BFA5" aria-label="Teal A700" aria-pressed="false" ng-class="{ &#39;color--state-selected&#39;: value.hex === $materialPalette.activeColor.hex }" ng-click="$materialPalette.setColor($event, value);" ng-style="{ &#39;background-color&#39;: value.hex, &#39;color&#39;: value.hexText }" role="button" tabindex="0" style="background-color: rgb(0, 191, 165)"></li>
+			</ul>
+			<ul class="palette-container ng-scope" ng-repeat="(index, palette) in $materialPalette.palettes">
+				<li class="color ng-scope" ng-repeat="value in palette.values" value="#E8F5E9" aria-label="Green 50" aria-pressed="false" ng-class="{ &#39;color--state-selected&#39;: value.hex === $materialPalette.activeColor.hex }" ng-click="$materialPalette.setColor($event, value);" ng-style="{ &#39;background-color&#39;: value.hex, &#39;color&#39;: value.hexText }" role="button" tabindex="0" style="background-color: rgb(232, 245, 233)"></li>
+				<li class="color ng-scope" ng-repeat="value in palette.values" value="#C8E6C9" aria-label="Green 100" aria-pressed="false" ng-class="{ &#39;color--state-selected&#39;: value.hex === $materialPalette.activeColor.hex }" ng-click="$materialPalette.setColor($event, value);" ng-style="{ &#39;background-color&#39;: value.hex, &#39;color&#39;: value.hexText }" role="button" tabindex="0" style="background-color: rgb(200, 230, 201)"></li>
+				<li class="color ng-scope" ng-repeat="value in palette.values" value="#A5D6A7" aria-label="Green 200" aria-pressed="false" ng-class="{ &#39;color--state-selected&#39;: value.hex === $materialPalette.activeColor.hex }" ng-click="$materialPalette.setColor($event, value);" ng-style="{ &#39;background-color&#39;: value.hex, &#39;color&#39;: value.hexText }" role="button" tabindex="0" style="background-color: rgb(165, 214, 167)"></li>
+				<li class="color ng-scope" ng-repeat="value in palette.values" value="#81C784" aria-label="Green 300" aria-pressed="false" ng-class="{ &#39;color--state-selected&#39;: value.hex === $materialPalette.activeColor.hex }" ng-click="$materialPalette.setColor($event, value);" ng-style="{ &#39;background-color&#39;: value.hex, &#39;color&#39;: value.hexText }" role="button" tabindex="0" style="background-color: rgb(129, 199, 132)"></li>
+				<li class="color ng-scope" ng-repeat="value in palette.values" value="#66BB6A" aria-label="Green 400" aria-pressed="false" ng-class="{ &#39;color--state-selected&#39;: value.hex === $materialPalette.activeColor.hex }" ng-click="$materialPalette.setColor($event, value);" ng-style="{ &#39;background-color&#39;: value.hex, &#39;color&#39;: value.hexText }" role="button" tabindex="0" style="background-color: rgb(102, 187, 106)"></li>
+				<li class="color ng-scope" ng-repeat="value in palette.values" value="#4CAF50" aria-label="Green 500" aria-pressed="false" ng-class="{ &#39;color--state-selected&#39;: value.hex === $materialPalette.activeColor.hex }" ng-click="$materialPalette.setColor($event, value);" ng-style="{ &#39;background-color&#39;: value.hex, &#39;color&#39;: value.hexText }" role="button" tabindex="0" style="background-color: rgb(76, 175, 80)"></li>
+				<li class="color ng-scope" ng-repeat="value in palette.values" value="#43A047" aria-label="Green 600" aria-pressed="false" ng-class="{ &#39;color--state-selected&#39;: value.hex === $materialPalette.activeColor.hex }" ng-click="$materialPalette.setColor($event, value);" ng-style="{ &#39;background-color&#39;: value.hex, &#39;color&#39;: value.hexText }" role="button" tabindex="0" style="background-color: rgb(67, 160, 71)"></li>
+				<li class="color ng-scope" ng-repeat="value in palette.values" value="#388E3C" aria-label="Green 700" aria-pressed="false" ng-class="{ &#39;color--state-selected&#39;: value.hex === $materialPalette.activeColor.hex }" ng-click="$materialPalette.setColor($event, value);" ng-style="{ &#39;background-color&#39;: value.hex, &#39;color&#39;: value.hexText }" role="button" tabindex="0" style="background-color: rgb(56, 142, 60)"></li>
+				<li class="color ng-scope" ng-repeat="value in palette.values" value="#2E7D32" aria-label="Green 800" aria-pressed="false" ng-class="{ &#39;color--state-selected&#39;: value.hex === $materialPalette.activeColor.hex }" ng-click="$materialPalette.setColor($event, value);" ng-style="{ &#39;background-color&#39;: value.hex, &#39;color&#39;: value.hexText }" role="button" tabindex="0" style="background-color: rgb(46, 125, 50)"></li>
+				<li class="color ng-scope" ng-repeat="value in palette.values" value="#1B5E20" aria-label="Green 900" aria-pressed="false" ng-class="{ &#39;color--state-selected&#39;: value.hex === $materialPalette.activeColor.hex }" ng-click="$materialPalette.setColor($event, value);" ng-style="{ &#39;background-color&#39;: value.hex, &#39;color&#39;: value.hexText }" role="button" tabindex="0" style="background-color: rgb(27, 94, 32)"></li>
+				<li class="color ng-scope" ng-repeat="value in palette.values" value="#B9F6CA" aria-label="Green A100" aria-pressed="false" ng-class="{ &#39;color--state-selected&#39;: value.hex === $materialPalette.activeColor.hex }" ng-click="$materialPalette.setColor($event, value);" ng-style="{ &#39;background-color&#39;: value.hex, &#39;color&#39;: value.hexText }" role="button" tabindex="0" style="background-color: rgb(185, 246, 202)"></li>
+				<li class="color ng-scope" ng-repeat="value in palette.values" value="#69F0AE" aria-label="Green A200" aria-pressed="false" ng-class="{ &#39;color--state-selected&#39;: value.hex === $materialPalette.activeColor.hex }" ng-click="$materialPalette.setColor($event, value);" ng-style="{ &#39;background-color&#39;: value.hex, &#39;color&#39;: value.hexText }" role="button" tabindex="0" style="background-color: rgb(105, 240, 174)"></li>
+				<li class="color ng-scope" ng-repeat="value in palette.values" value="#00E676" aria-label="Green A400" aria-pressed="false" ng-class="{ &#39;color--state-selected&#39;: value.hex === $materialPalette.activeColor.hex }" ng-click="$materialPalette.setColor($event, value);" ng-style="{ &#39;background-color&#39;: value.hex, &#39;color&#39;: value.hexText }" role="button" tabindex="0" style="background-color: rgb(0, 230, 118)"></li>
+				<li class="color ng-scope" ng-repeat="value in palette.values" value="#00C853" aria-label="Green A700" aria-pressed="false" ng-class="{ &#39;color--state-selected&#39;: value.hex === $materialPalette.activeColor.hex }" ng-click="$materialPalette.setColor($event, value);" ng-style="{ &#39;background-color&#39;: value.hex, &#39;color&#39;: value.hexText }" role="button" tabindex="0" style="background-color: rgb(0, 200, 83)"></li>
+			</ul>
+		</div>
+	</div>
+</div>
+</div>
+<div class="footer">
+	<div>Material Color Palette</div>
+</div>
+
+<br>
+<br>
+
+
+<center><span class="text">
+    This color pallet will help you to choose the right font-color scheme for your web page, applications and etc.
+    The color picker is highly advanced and is based on an opensource tool.
+
+    To grab the source code of this color picker, check out the github link below.
+    It is completely free to use.
+</span>
+<br>
+<a href="" class="text">GitHub Repo</a>
+<br>
+<br>
+<span id="text2">This color picker is brought to you by ScribbleX & team!</span>
+</center>
+
+
+<script src="script.js"></script>
+</body>
+</html>
